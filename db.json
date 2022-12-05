@@ -93,7 +93,7 @@
       },
       {
         "id": 8,
-        "name": "Arizona Snowbowl",
+        "name": "Arizona Snowbowl", 
         "country": "United States", 
         "state": "Arizona",
         "acres": "777", 
@@ -1234,7 +1234,7 @@
         "vertical_drop": "1800",
         "snowfall": "450", 
         "url": "https://www.stevenspass.com/",
-        "image": "src/assets/resort-images/stevenspass.webq"
+        "image": "src/assets/resort-images/stevenspass.webp"
       },
       {
         "id": 112,

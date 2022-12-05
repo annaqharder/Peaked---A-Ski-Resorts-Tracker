@@ -1,19 +1,31 @@
 import React from "react";
 
-function ResortCard({ resort }) {
+function ResortCard({ resort, onFavoriteResort }) {
 
     const { id, name, country, state, acres, vertical_drop, snowfall, url, image } = resort
 
+    function onFavoriteClick(){
+        onFavoriteResort(resort)
+    }
+  
     return (
-        <div className="card">
-            <h2>{name}</h2>
+        <div className="resort-card">
+            <div className="favorite-btn">
+                <button onClick={onFavoriteClick}>Favorite</button>
+            </div>
+            <h2 className="resort-name">{name}</h2>
+            <p className="resort-location">{state}, {country}</p>
             <img className="resort-image" src={image} alt={name} />
-            <p>Country: {country} </p>
-            <p>State/Providence: {state}</p>
-            <p>Acres: {acres} acres</p>
-            <p>Vertical Drop: {vertical_drop} feet</p>
-            <p>Annual Snowfall: {snowfall} inches</p> 
-            <p>Resort Website: {url}</p>
+            <div className="resort-details">
+                <p><b>Acres: </b>{acres} acres</p>
+                <p><b>Vertical Drop:</b> {vertical_drop} feet</p>
+                <p><b>Annual Snowfall:</b> {snowfall} inches</p> 
+                <p><b>Resort Website:</b> {url}</p>
+            </div>
+            <div className="visited-btn">
+                <button>Haven't Visited</button>
+            </div>
+            
         </div>
     );
 }

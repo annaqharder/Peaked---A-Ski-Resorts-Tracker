@@ -1,5 +1,6 @@
 import React from "react";
 import ResortCard from "./ResortCard"
+import Search from "./Search"
 
 
 function ResortList({ resorts }) {
@@ -13,6 +14,7 @@ function ResortList({ resorts }) {
     return (
         <div>
             <ul className="cards">{resortsArray}</ul>
+            <Search />
         </div>
     );
 }

@@ -9,7 +9,9 @@
         "vertical_drop": "2500",
         "snowfall": "643", 
         "url": "https://www.alyeskaresort.com/",
-        "image": "src/assets/resort-images/Alyeska.jpeg"
+        "image": "src/assets/resort-images/Alyeska.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 2,
@@ -20,7 +22,9 @@
         "vertical_drop": "1620",
         "snowfall": "350", 
         "url": "https://skieaglecrest.com/",
-        "image": "src/assets/resort-images/Eaglecrest.jpeg"
+        "image": "src/assets/resort-images/Eaglecrest.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 3,
@@ -31,7 +35,9 @@
         "vertical_drop": "294",
         "snowfall": "69", 
         "url": "https://www.hilltopskiarea.org/",
-        "image": "src/assets/resort-images/Hilltop.jpeg"
+        "image": "src/assets/resort-images/Hilltop.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 4,
@@ -42,7 +48,9 @@
         "vertical_drop": "3592",
         "snowfall": "354", 
         "url": "https://www.skicastle.ca/",
-        "image": "src/assets/resort-images/CastleMountain.jpeg"
+        "image": "src/assets/resort-images/CastleMountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 5,
@@ -53,7 +61,9 @@
         "vertical_drop": "3250",
         "snowfall": "180", 
         "url": "https://www.skilouise.com/",
-        "image": "src/assets/resort-images/lakelouise.jpeg"
+        "image": "src/assets/resort-images/lakelouise.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 6,
@@ -64,7 +74,9 @@
         "vertical_drop": "3000",
         "snowfall": "160", 
         "url": "https://www.skimarmot.com/",
-        "image": "src/assets/resort-images/marmotbasin.jpg"
+        "image": "src/assets/resort-images/marmotbasin.jpg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 7,
@@ -75,7 +87,9 @@
         "vertical_drop": "3514",
         "snowfall": "360", 
         "url": "https://www.skibanff.com/",
-        "image": "src/assets/resort-images/sunshinevillage.jpeg"
+        "image": "src/assets/resort-images/sunshinevillage.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 8,
@@ -86,7 +100,9 @@
         "vertical_drop": "2300",
         "snowfall": "260", 
         "url": "https://www.snowbowl.ski/",
-        "image": "src/assets/resort-images/arizonasnowbowl.jpeg"
+        "image": "src/assets/resort-images/arizonasnowbowl.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 9,
@@ -97,7 +113,9 @@
         "vertical_drop": "1900",
         "snowfall": "250", 
         "url": "https://www.sunrise.ski/",
-        "image": "src/assets/resort-images/sunrisepark.jpeg"
+        "image": "src/assets/resort-images/sunrisepark.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 10,
@@ -108,7 +126,9 @@
         "vertical_drop": "5280",
         "snowfall": "404", 
         "url": "https://www.whistlerblackcomb.com/",
-        "image": "src/assets/resort-images/whistlerblackcomb.jpeg"
+        "image": "src/assets/resort-images/whistlerblackcomb.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 11,

@@ -10,7 +10,7 @@
         "snowfall": "643", 
         "url": "https://www.alyeskaresort.com/",
         "image": "src/assets/resort-images/Alyeska.jpeg",
-        "favorite": false,
+        "favorite": true,
         "visited": false
       },
       {
@@ -139,7 +139,9 @@
         "vertical_drop": "2656",
         "snowfall": "294", 
         "url": "https://www.bigwhite.com/geo/usa",
-        "image": "src/assets/resort-images/bigwhite.webp"
+        "image": "src/assets/resort-images/bigwhite.webp",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 12,
@@ -150,7 +152,9 @@
         "vertical_drop": "2894",
         "snowfall": "237", 
         "url": "https://www.sunpeaksresort.com/",
-        "image": "src/assets/resort-images/sunpeaks.jpeg"
+        "image": "src/assets/resort-images/sunpeaks.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 13,
@@ -161,7 +165,9 @@
         "vertical_drop": "5620",
         "snowfall": "413", 
         "url": "https://seerevelstoke.com/",
-        "image": "src/assets/resort-images/revelstoke.jpeg"
+        "image": "src/assets/resort-images/revelstoke.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 14,
@@ -172,7 +178,9 @@
         "vertical_drop": "2000",
         "snowfall": "236", 
         "url": "https://apexresort.com/",
-        "image": "src/assets/resort-images/apexmountain.jpeg"
+        "image": "src/assets/resort-images/apexmountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 15,
@@ -183,7 +191,9 @@
         "vertical_drop": "2919",
         "snowfall": "300", 
         "url": "https://www.redresort.com/",
-        "image": "src/assets/resort-images/redmountain.jpeg"
+        "image": "src/assets/resort-images/redmountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 16,
@@ -194,7 +204,9 @@
         "vertical_drop": "4314",
         "snowfall": "295", 
         "url": "https://kickinghorseresort.com/",
-        "image": "src/assets/resort-images/kickinghorse.jpeg"
+        "image": "src/assets/resort-images/kickinghorse.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 17,
@@ -205,7 +217,9 @@
         "vertical_drop": "3550",
         "snowfall": "360", 
         "url": "https://skifernie.com/",
-        "image": "src/assets/resort-images/fernie.jpeg"
+        "image": "src/assets/resort-images/fernie.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 18,
@@ -216,7 +230,9 @@
         "vertical_drop": "4019",
         "snowfall": "196", 
         "url": "https://www.panoramaresort.com/",
-        "image": "src/assets/resort-images/panorama.jpeg"
+        "image": "src/assets/resort-images/panorama.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 19,
@@ -227,7 +243,9 @@
         "vertical_drop": "2464",
         "snowfall": "160", 
         "url": "https://skikimberley.com/",
-        "image": "src/assets/resort-images/kimberley.jpeg"
+        "image": "src/assets/resort-images/kimberley.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 20,
@@ -238,7 +256,9 @@
         "vertical_drop": "2044",
         "snowfall": "472", 
         "url": "https://skiwhitewater.com/",
-        "image": "src/assets/resort-images/whitewater.jpeg"
+        "image": "src/assets/resort-images/whitewater.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 21,
@@ -249,7 +269,9 @@
         "vertical_drop": "2500",
         "snowfall": "275", 
         "url": "https://www.skisilverstar.com/",
-        "image": "src/assets/resort-images/silverstar.jpeg"
+        "image": "src/assets/resort-images/silverstar.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 22,
@@ -260,7 +282,9 @@
         "vertical_drop": "2850",
         "snowfall": "450", 
         "url": "https://www.palisadestahoe.com/",
-        "image": "src/assets/resort-images/palisades.jpeg"
+        "image": "src/assets/resort-images/palisades.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 23,
@@ -271,7 +295,9 @@
         "vertical_drop": "3500",
         "snowfall": "360", 
         "url": "https://www.skiheavenly.com/",
-        "image": "src/assets/resort-images/heavenly.jpeg"
+        "image": "src/assets/resort-images/heavenly.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 24,
@@ -282,7 +308,9 @@
         "vertical_drop": "3100",
         "snowfall": "420", 
         "url": "https://www.mammothmountain.com/",
-        "image": "src/assets/resort-images/mammoth.jpeg"
+        "image": "src/assets/resort-images/mammoth.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 25,
@@ -293,7 +321,9 @@
         "vertical_drop": "2280",
         "snowfall": "350", 
         "url": "https://www.northstarcalifornia.com/",
-        "image": "src/assets/resort-images/northstar.jpeg"
+        "image": "src/assets/resort-images/northstar.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 26,
@@ -304,7 +334,9 @@
         "vertical_drop": "2000",
         "snowfall": "500", 
         "url": "https://www.kirkwood.com/",
-        "image": "src/assets/resort-images/kirkwood.jpeg"
+        "image": "src/assets/resort-images/kirkwood.jpeg",
+        "favorite": false,
+        "visited": false
       }, {
         "id": 27,
         "name": "Sugar Bowl",
@@ -314,7 +346,9 @@
         "vertical_drop": "1500",
         "snowfall": "500", 
         "url": "https://www.sugarbowl.com/",
-        "image": "src/assets/resort-images/sugarbowl.jpeg"
+        "image": "src/assets/resort-images/sugarbowl.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 28,
@@ -325,7 +359,9 @@
         "vertical_drop": "1900",
         "snowfall": "359", 
         "url": "https://www.bearvalley.com/",
-        "image": "src/assets/resort-images/bearvalley.jpeg"
+        "image": "src/assets/resort-images/bearvalley.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 29,
@@ -336,7 +372,9 @@
         "vertical_drop": "800",
         "snowfall": "300", 
         "url": "https://www.yosemite.com/yosemite/yosemite_westbadger_pass/",
-        "image": "src/assets/resort-images/badgerpass.jpeg"
+        "image": "src/assets/resort-images/badgerpass.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 30,
@@ -347,7 +385,9 @@
         "vertical_drop": "1435",
         "snowfall": "275", 
         "url": "https://www.mountshastaresort.com/",
-        "image": "src/assets/resort-images/mtshasta.jpeg"
+        "image": "src/assets/resort-images/mtshasta.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 31,
@@ -358,7 +398,9 @@
         "vertical_drop": "2100",
         "snowfall": "170", 
         "url": "https://www.mtbaldyresort.com/",
-        "image": "src/assets/resort-images/mtbaldy.jpeg"
+        "image": "src/assets/resort-images/mtbaldy.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 32,
@@ -369,7 +411,9 @@
         "vertical_drop": "1600",
         "snowfall": "112", 
         "url": "https://www.mthigh.com/",
-        "image": "src/assets/resort-images/mountainhigh.jpeg"
+        "image": "src/assets/resort-images/mountainhigh.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 33,
@@ -380,7 +424,9 @@
         "vertical_drop": "640",
         "snowfall": "24", 
         "url": "https://www.mohawkmtn.com/",
-        "image": "src/assets/resort-images/mohawk.jpeg"
+        "image": "src/assets/resort-images/mohawk.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 34,
@@ -391,7 +437,9 @@
         "vertical_drop": "3400",
         "snowfall": "220", 
         "url": "https://www.sunvalley.com/",
-        "image": "src/assets/resort-images/sunvalley.jpeg"
+        "image": "src/assets/resort-images/sunvalley.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 35,
@@ -402,7 +450,9 @@
         "vertical_drop": "2400",
         "snowfall": "300", 
         "url": "https://www.schweitzer.com/",
-        "image": "src/assets/resort-images/schweitzer.jpeg"
+        "image": "src/assets/resort-images/schweitzer.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 36,
@@ -413,7 +463,9 @@
         "vertical_drop": "1921",
         "snowfall": "320", 
         "url": "https://brundage.com/",
-        "image": "src/assets/resort-images/brundage.jpeg"
+        "image": "src/assets/resort-images/brundage.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 37,
@@ -424,7 +476,9 @@
         "vertical_drop": "2197",
         "snowfall": "300", 
         "url": "https://silvermt.com/",
-        "image": "src/assets/resort-images/silvermountain.jpeg"
+        "image": "src/assets/resort-images/silvermountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 38,
@@ -435,7 +489,9 @@
         "vertical_drop": "420",
         "snowfall": "34", 
         "url": "https://www.chestnutmtn.com/",
-        "image": "src/assets/resort-images/chestnut.jpeg"
+        "image": "src/assets/resort-images/chestnut.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 39,
@@ -446,7 +502,9 @@
         "vertical_drop": "2760",
         "snowfall": "200", 
         "url": "https://tamarackidaho.com/",
-        "image": "src/assets/resort-images/tamarack.jpeg"
+        "image": "src/assets/resort-images/tamarack.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 40,
@@ -457,7 +515,9 @@
         "vertical_drop": "1800",
         "snowfall": "200", 
         "url": "https://bogusbasin.org/",
-        "image": "src/assets/resort-images/bogusbasin.jpeg"
+        "image": "src/assets/resort-images/bogusbasin.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 41,
@@ -468,7 +528,9 @@
         "vertical_drop": "1620",
         "snowfall": "136", 
         "url": "https://skibigsquaw.com/",
-        "image": "src/assets/resort-images/bigsquaw.jpeg"
+        "image": "src/assets/resort-images/bigsquaw.jpeg",
+        "favorite": false,
+        "visited": false
       },{
         "id": 42,
         "name": "Sugarloaf",
@@ -478,7 +540,9 @@
         "vertical_drop": "2820",
         "snowfall": "200", 
         "url": "https://www.sugarloaf.com/",
-        "image": "src/assets/resort-images/sugarloaf.jpeg"
+        "image": "src/assets/resort-images/sugarloaf.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 43,
@@ -489,7 +553,9 @@
         "vertical_drop": "2340",
         "snowfall": "155", 
         "url": "https://www.sundayriver.com/",
-        "image": "src/assets/resort-images/sundayriver.jpeg"
+        "image": "src/assets/resort-images/sundayriver.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 44,
@@ -500,7 +566,9 @@
         "vertical_drop": "2000",
         "snowfall": "200", 
         "url": "https://www.saddlebackmaine.com/",
-        "image": "src/assets/resort-images/saddleback.jpeg"
+        "image": "src/assets/resort-images/saddleback.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 45,
@@ -511,7 +579,9 @@
         "vertical_drop": "845",
         "snowfall": "50", 
         "url": "https://camdensnowbowl.com/",
-        "image": "src/assets/resort-images/camden.jpeg"
+        "image": "src/assets/resort-images/camden.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 46,
@@ -522,7 +592,9 @@
         "vertical_drop": "1119",
         "snowfall": "115", 
         "url": "https://skibutternut.com/",
-        "image": "src/assets/resort-images/skibutternut.jpeg"
+        "image": "src/assets/resort-images/skibutternut.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 47,
@@ -533,7 +605,9 @@
         "vertical_drop": "1140",
         "snowfall": "110", 
         "url": "https://www.jiminypeak.com/",
-        "image": "src/assets/resort-images/jiminypeak.jpeg"
+        "image": "src/assets/resort-images/jiminypeak.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 48,
@@ -544,7 +618,9 @@
         "vertical_drop": "638",
         "snowfall": "205", 
         "url": "https://www.bigsnowamericandream.com/",
-        "image": "src/assets/resort-images/bigsnow.jpeg"
+        "image": "src/assets/resort-images/bigsnow.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 49,
@@ -555,7 +631,9 @@
         "vertical_drop": "545",
         "snowfall": "140", 
         "url": "https://www.boynemountain.com/",
-        "image": "src/assets/resort-images/boyne.jpeg"
+        "image": "src/assets/resort-images/boyne.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 50,
@@ -566,7 +644,9 @@
         "vertical_drop": "375",
         "snowfall": "132", 
         "url": "https://www.crystalmountain.com/",
-        "image": "src/assets/resort-images/crystalmountain.jpeg"
+        "image": "src/assets/resort-images/crystalmountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 51,
@@ -577,7 +657,9 @@
         "vertical_drop": "500",
         "snowfall": "150", 
         "url": "https://skibrule.com/",
-        "image": "src/assets/resort-images/skibrule.jpeg"
+        "image": "src/assets/resort-images/skibrule.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 52,
@@ -588,7 +670,9 @@
         "vertical_drop": "273",
         "snowfall": "273", 
         "url": "https://www.mtbohemia.com/",
-        "image": "src/assets/resort-images/mountbohemia.jpeg"
+        "image": "src/assets/resort-images/mountbohemia.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 53,
@@ -599,7 +683,9 @@
         "vertical_drop": "863",
         "snowfall": "115", 
         "url": "https://www.lutsen.com/",
-        "image": "src/assets/resort-images/lutsen.jpeg"
+        "image": "src/assets/resort-images/lutsen.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 54,
@@ -610,7 +696,9 @@
         "vertical_drop": "678",
         "snowfall": "90", 
         "url": "https://spiritmt.com/",
-        "image": "src/assets/resort-images/spirit.jpeg"
+        "image": "src/assets/resort-images/spirit.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 55,
@@ -621,7 +709,9 @@
         "vertical_drop": "500",
         "snowfall": "85", 
         "url": "https://www.giantsridge.com/",
-        "image": "src/assets/resort-images/giantsridge.jpeg"
+        "image": "src/assets/resort-images/giantsridge.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 56,
@@ -632,7 +722,9 @@
         "vertical_drop": "360",
         "snowfall": "45", 
         "url": "https://www.welchvillage.com/",
-        "image": "src/assets/resort-images/welch.jpeg"
+        "image": "src/assets/resort-images/welch.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 57,
@@ -643,7 +735,9 @@
         "vertical_drop": "4350",
         "snowfall": "400", 
         "url": "https://bigskyresort.com/",
-        "image": "src/assets/resort-images/bigsky.jpeg"
+        "image": "src/assets/resort-images/bigsky.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 58,
@@ -654,7 +748,9 @@
         "vertical_drop": "2353",
         "snowfall": "300", 
         "url": "https://skiwhitefish.com/",
-        "image": "src/assets/resort-images/whitefish.jpeg"
+        "image": "src/assets/resort-images/whitefish.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 59,
@@ -665,7 +761,9 @@
         "vertical_drop": "2600",
         "snowfall": "350", 
         "url": "https://bridgerbowl.com/",
-        "image": "src/assets/resort-images/bridgerbowl.jpeg"
+        "image": "src/assets/resort-images/bridgerbowl.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 60,
@@ -676,7 +774,9 @@
         "vertical_drop": "2388",
         "snowfall": "150", 
         "url": "https://www.skidiscovery.com/",
-        "image": "src/assets/resort-images/discovery.jpeg"
+        "image": "src/assets/resort-images/discovery.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 61,
@@ -687,7 +787,9 @@
         "vertical_drop": "2600",
         "snowfall": "300", 
         "url": "https://www.montanasnowbowl.com/",
-        "image": "src/assets/resort-images/montanasnowbowl.jpeg"
+        "image": "src/assets/resort-images/montanasnowbowl.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 62,
@@ -698,7 +800,9 @@
         "vertical_drop": "1800",
         "snowfall": "325", 
         "url": "https://losttrail.com/",
-        "image": "src/assets/resort-images/losttrail.jpeg"
+        "image": "src/assets/resort-images/losttrail.jpeg",
+        "favorite": false,
+        "visited": false
       },  
       {
         "id": 63,
@@ -709,7 +813,9 @@
         "vertical_drop": "1400",
         "snowfall": "240", 
         "url": "https://www.showdownmontana.com/",
-        "image": "src/assets/resort-images/showdown.jpeg"
+        "image": "src/assets/resort-images/showdown.jpeg",
+        "favorite": false,
+        "visited": false
       },  
       {
         "id": 64,
@@ -720,7 +826,9 @@
         "vertical_drop": "2400",
         "snowfall": "250", 
         "url": "https://www.redlodgemountain.com/",
-        "image": "src/assets/resort-images/redlodge.jpeg"
+        "image": "src/assets/resort-images/redlodge.jpeg",
+        "favorite": false,
+        "visited": false
       },  
       {
         "id": 65,
@@ -731,7 +839,9 @@
         "vertical_drop": "1800",
         "snowfall": "396", 
         "url": "https://skirose.com/",
-        "image": "src/assets/resort-images/mtrose.jpeg"
+        "image": "src/assets/resort-images/mtrose.jpeg",
+        "favorite": false,
+        "visited": false
       },  
       {
         "id": 66,
@@ -742,7 +852,9 @@
         "vertical_drop": "1840",
         "snowfall": "225", 
         "url": "https://www.diamondpeak.com/",
-        "image": "src/assets/resort-images/diamondpeak.jpeg"
+        "image": "src/assets/resort-images/diamondpeak.jpeg",
+        "favorite": false,
+        "visited": false
       },  
       {
         "id": 67,
@@ -753,7 +865,9 @@
         "vertical_drop": "1500",
         "snowfall": "200", 
         "url": "https://www.brettonwoods.com/",
-        "image": "src/assets/resort-images/brettonwoods.jpeg"
+        "image": "src/assets/resort-images/brettonwoods.jpeg",
+        "favorite": false,
+        "visited": false
       },  
       {
         "id": 68,
@@ -764,7 +878,9 @@
         "vertical_drop": "2100",
         "snowfall": "163", 
         "url": "https://www.loonmtn.com/",
-        "image": "src/assets/resort-images/loonmountain.jpeg"
+        "image": "src/assets/resort-images/loonmountain.jpeg",
+        "favorite": false,
+        "visited": false
       },  
       {
         "id": 69,
@@ -775,7 +891,9 @@
         "vertical_drop": "2330",
         "snowfall": "160", 
         "url": "https://www.cannonmt.com/",
-        "image": "src/assets/resort-images/cannonmountain.jpeg"
+        "image": "src/assets/resort-images/cannonmountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 70,
@@ -786,7 +904,9 @@
         "vertical_drop": "1513",
         "snowfall": "100", 
         "url": "https://www.mountsunapee.com/",
-        "image": "src/assets/resort-images/mtsunapee.jpeg"
+        "image": "src/assets/resort-images/mtsunapee.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 71,
@@ -797,7 +917,9 @@
         "vertical_drop": "2077",
         "snowfall": "219", 
         "url": "https://www.angelfireresort.com/",
-        "image": "src/assets/resort-images/angelfire.jpeg"
+        "image": "src/assets/resort-images/angelfire.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 72,
@@ -808,7 +930,9 @@
         "vertical_drop": "1440",
         "snowfall": "163", 
         "url": "https://www.pajarito.ski/",
-        "image": "src/assets/resort-images/pajarito.jpeg"
+        "image": "src/assets/resort-images/pajarito.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 73,
@@ -819,7 +943,9 @@
         "vertical_drop": "1600",
         "snowfall": "214", 
         "url": "https://www.redriverskiarea.com/",
-        "image": "src/assets/resort-images/redriver.jpeg"
+        "image": "src/assets/resort-images/redriver.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 74,
@@ -830,7 +956,9 @@
         "vertical_drop": "3281",
         "snowfall": "300", 
         "url": "https://www.skitaos.com/",
-        "image": "src/assets/resort-images/taos.jpeg"
+        "image": "src/assets/resort-images/taos.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 75,
@@ -841,7 +969,9 @@
         "vertical_drop": "1700",
         "snowfall": "100", 
         "url": "https://sandiapeak.com/ski_area/",
-        "image": "src/assets/resort-images/sandiapeak.jpeg"
+        "image": "src/assets/resort-images/sandiapeak.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 76,
@@ -852,7 +982,9 @@
         "vertical_drop": "1055",
         "snowfall": "190", 
         "url": "https://www.sipapu.ski/",
-        "image": "src/assets/resort-images/sipapu.jpeg"
+        "image": "src/assets/resort-images/sipapu.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 77,
@@ -863,7 +995,9 @@
         "vertical_drop": "1900",
         "snowfall": "185", 
         "url": "https://www.skiapache.com/",
-        "image": "src/assets/resort-images/skiapache.jpeg"
+        "image": "src/assets/resort-images/skiapache.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 78,
@@ -874,7 +1008,9 @@
         "vertical_drop": "1725",
         "snowfall": "225", 
         "url": "https://skisantafe.com/",
-        "image": "src/assets/resort-images/skisantefe.jpeg"
+        "image": "src/assets/resort-images/skisantefe.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 79,
@@ -885,7 +1021,9 @@
         "vertical_drop": "1405",
         "snowfall": "141", 
         "url": "https://www.belleayre.com/",
-        "image": "src/assets/resort-images/belleayre.webp"
+        "image": "src/assets/resort-images/belleayre.webp",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 80,
@@ -896,7 +1034,9 @@
         "vertical_drop": "2600",
         "snowfall": "150", 
         "url": "https://goremountain.com/",
-        "image": "src/assets/resort-images/goremountain.jpeg"
+        "image": "src/assets/resort-images/goremountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 81,
@@ -907,7 +1047,9 @@
         "vertical_drop": "3430",
         "snowfall": "168", 
         "url": "https://whiteface.com/",
-        "image": "src/assets/resort-images/whiteface.jpeg"
+        "image": "src/assets/resort-images/whiteface.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 82,
@@ -918,7 +1060,9 @@
         "vertical_drop": "1600",
         "snowfall": "100", 
         "url": "https://www.windhammountain.com/",
-        "image": "src/assets/resort-images/windham.jpeg"
+        "image": "src/assets/resort-images/windham.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 83,
@@ -929,7 +1073,9 @@
         "vertical_drop": "1600",
         "snowfall": "120", 
         "url": "https://www.huntermtn.com/",
-        "image": "src/assets/resort-images/hunter.jpeg"
+        "image": "src/assets/resort-images/hunter.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 84,
@@ -940,7 +1086,9 @@
         "vertical_drop": "3365",
         "snowfall": "462", 
         "url": "https://www.mtbachelor.com/",
-        "image": "src/assets/resort-images/mtbachelor.jpeg"
+        "image": "src/assets/resort-images/mtbachelor.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 85,
@@ -951,7 +1099,9 @@
         "vertical_drop": "2777",
         "snowfall": "430", 
         "url": "https://www.skihood.com/",
-        "image": "src/assets/resort-images/mthoodmeadows.jpeg"
+        "image": "src/assets/resort-images/mthoodmeadows.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 86,
@@ -962,7 +1112,9 @@
         "vertical_drop": "4540",
         "snowfall": "540", 
         "url": "https://www.timberlinelodge.com/",
-        "image": "src/assets/resort-images/timberline.jpeg"
+        "image": "src/assets/resort-images/timberline.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 87,
@@ -973,7 +1125,9 @@
         "vertical_drop": "1527",
         "snowfall": "300", 
         "url": "https://www.skibowl.com/",
-        "image": "src/assets/resort-images/mthood.jpeg"
+        "image": "src/assets/resort-images/mthood.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 88,
@@ -984,7 +1138,9 @@
         "vertical_drop": "1150",
         "snowfall": "265", 
         "url": "https://www.mtashland.com/",
-        "image": "src/assets/resort-images/mtashland.jpeg"
+        "image": "src/assets/resort-images/mtashland.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 89,
@@ -995,7 +1151,9 @@
         "vertical_drop": "1563",
         "snowfall": "430", 
         "url": "https://willamettepass.com/",
-        "image": "src/assets/resort-images/willamettepass.jpeg"
+        "image": "src/assets/resort-images/willamettepass.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 90,
@@ -1006,7 +1164,9 @@
         "vertical_drop": "1082",
         "snowfall": "33", 
         "url": "https://www.skibluemt.com/",
-        "image": "src/assets/resort-images/bluemountain.jpeg"
+        "image": "src/assets/resort-images/bluemountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 91,
@@ -1017,7 +1177,9 @@
         "vertical_drop": "925",
         "snowfall": "60", 
         "url": "https://www.elkskier.com/",
-        "image": "src/assets/resort-images/elkmountain.jpeg"
+        "image": "src/assets/resort-images/elkmountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 92,
@@ -1028,7 +1190,9 @@
         "vertical_drop": "800",
         "snowfall": "50", 
         "url": "https://www.camelbackresort.com/",
-        "image": "src/assets/resort-images/camelback.jpeg"
+        "image": "src/assets/resort-images/camelback.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 93,
@@ -1039,7 +1203,9 @@
         "vertical_drop": "1000",
         "snowfall": "60", 
         "url": "https://www.montagemountainresorts.com/",
-        "image": "src/assets/resort-images/montagemountain.jpeg"
+        "image": "src/assets/resort-images/montagemountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 94,
@@ -1050,7 +1216,9 @@
         "vertical_drop": "2020",
         "snowfall": "560", 
         "url": "https://www.alta.com/",
-        "image": "src/assets/resort-images/alta.jpeg"
+        "image": "src/assets/resort-images/alta.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 95,
@@ -1061,7 +1229,9 @@
         "vertical_drop": "3240",
         "snowfall": "500", 
         "url": "https://www.snowbird.com/",
-        "image": "src/assets/resort-images/snowbird.jpeg"
+        "image": "src/assets/resort-images/snowbird.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 96,
@@ -1072,7 +1242,9 @@
         "vertical_drop": "3000",
         "snowfall": "280", 
         "url": "https://www.deervalley.com/",
-        "image": "src/assets/resort-images/deervalley.jpeg"
+        "image": "src/assets/resort-images/deervalley.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 97,
@@ -1083,7 +1255,9 @@
         "vertical_drop": "3100",
         "snowfall": "360", 
         "url": "https://www.parkcitymountain.com/",
-        "image": "src/assets/resort-images/parkcity.jpeg"
+        "image": "src/assets/resort-images/parkcity.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 98,
@@ -1094,7 +1268,9 @@
         "vertical_drop": "2959",
         "snowfall": "350", 
         "url": "https://www.snowbasin.com/",
-        "image": "src/assets/resort-images/snowbasin.jpeg"
+        "image": "src/assets/resort-images/snowbasin.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 99,
@@ -1105,7 +1281,9 @@
         "vertical_drop": "2205",
         "snowfall": "500", 
         "url": "https://www.powdermountain.com/",
-        "image": "src/assets/resort-images/powdermountain.jpeg"
+        "image": "src/assets/resort-images/powdermountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 100,
@@ -1116,7 +1294,9 @@
         "vertical_drop": "2500",
         "snowfall": "500", 
         "url": "https://www.solitudemountain.com/",
-        "image": "src/assets/resort-images/solitudemountain.jpeg"
+        "image": "src/assets/resort-images/solitudemountain.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 101,
@@ -1127,7 +1307,9 @@
         "vertical_drop": "1745",
         "snowfall": "500", 
         "url": "https://brightonresort.com/",
-        "image": "src/assets/resort-images/brighton.jpeg"
+        "image": "src/assets/resort-images/brighton.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 102,
@@ -1138,7 +1320,9 @@
         "vertical_drop": "2150",
         "snowfall": "320", 
         "url": "https://www.sundanceresort.com/",
-        "image": "src/assets/resort-images/sundance.jpeg"
+        "image": "src/assets/resort-images/sundance.jpeg",
+        "favorite": false,
+        "visited": false
       }, {
         "id": 103,
         "name": "Killington Resort",
@@ -1148,7 +1332,9 @@
         "vertical_drop": "3050",
         "snowfall": "250", 
         "url": "https://www.killington.com/",
-        "image": "src/assets/resort-images/killington.jpeg"
+        "image": "src/assets/resort-images/killington.jpeg",
+        "favorite": false,
+        "visited": false
       }, {
         "id": 104,
         "name": "Stowe Mountain",
@@ -1158,7 +1344,9 @@
         "vertical_drop": "2160",
         "snowfall": "333", 
         "url": "https://www.stowe.com/",
-        "image": "src/assets/resort-images/stowe.jpeg"
+        "image": "src/assets/resort-images/stowe.jpeg",
+        "favorite": false,
+        "visited": false
       }, {
         "id": 105,
         "name": "Okemo Mountain",
@@ -1168,7 +1356,9 @@
         "vertical_drop": "2200",
         "snowfall": "200", 
         "url": "https://www.okemo.com/",
-        "image": "src/assets/resort-images/okemo.jpeg"
+        "image": "src/assets/resort-images/okemo.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 106,
@@ -1179,7 +1369,9 @@
         "vertical_drop": "2153",
         "snowfall": "350", 
         "url": "https://jaypeakresort.com/",
-        "image": "src/assets/resort-images/jaypeak.jpeg"
+        "image": "src/assets/resort-images/jaypeak.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 107,
@@ -1190,7 +1382,9 @@
         "vertical_drop": "2600",
         "snowfall": "269", 
         "url": "https://www.sugarbush.com/",
-        "image": "src/assets/resort-images/sugarbush.jpeg"
+        "image": "src/assets/resort-images/sugarbush.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 108,
@@ -1201,7 +1395,9 @@
         "vertical_drop": "2003",
         "snowfall": "171", 
         "url": "https://www.stratton.com/",
-        "image": "src/assets/resort-images/stratton.jpeg"
+        "image": "src/assets/resort-images/stratton.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 109,
@@ -1212,7 +1408,9 @@
         "vertical_drop": "2280",
         "snowfall": "435", 
         "url": "https://summitatsnoqualmie.com/",
-        "image": "src/assets/resort-images/snoqualmie.jpeg"
+        "image": "src/assets/resort-images/snoqualmie.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 110,
@@ -1223,7 +1421,9 @@
         "vertical_drop": "3100",
         "snowfall": "350", 
         "url": "https://www.crystalmountainresort.com/",
-        "image": "src/assets/resort-images/crystalmountainwashington.jpeg"
+        "image": "src/assets/resort-images/crystalmountainwashington.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 111,
@@ -1234,7 +1434,9 @@
         "vertical_drop": "1800",
         "snowfall": "450", 
         "url": "https://www.stevenspass.com/",
-        "image": "src/assets/resort-images/stevenspass.webp"
+        "image": "src/assets/resort-images/stevenspass.webp",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 112,
@@ -1245,7 +1447,9 @@
         "vertical_drop": "1589",
         "snowfall": "641", 
         "url": "https://www.mtbaker.us/",
-        "image": "src/assets/resort-images/mtbaker-washington.jpeg"
+        "image": "src/assets/resort-images/mtbaker-washington.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 113,
@@ -1256,7 +1460,9 @@
         "vertical_drop": "2270",
         "snowfall": "500", 
         "url": "https://www.grandtarghee.com/",
-        "image": "src/assets/resort-images/grandtarghee.webp"
+        "image": "src/assets/resort-images/grandtarghee.webp",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 114,
@@ -1267,7 +1473,9 @@
         "vertical_drop": "4139",
         "snowfall": "459", 
         "url": "https://www.jacksonhole.com/",
-        "image": "src/assets/resort-images/jacksonhole.jpeg"
+        "image": "src/assets/resort-images/jacksonhole.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 115,
@@ -1278,7 +1486,9 @@
         "vertical_drop": "2530",
         "snowfall": "350", 
         "url": "https://www.arapahoebasin.com/",
-        "image": "src/assets/resort-images/abasin.jpeg"
+        "image": "src/assets/resort-images/abasin.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 116,
@@ -1289,7 +1499,9 @@
         "vertical_drop": "2530",
         "snowfall": "300", 
         "url": "https://www.aspensnowmass.com/four_mountains/aspen_mountain",
-        "image": "src/assets/resort-images/aspen.webp"
+        "image": "src/assets/resort-images/aspen.webp",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 117,
@@ -1300,7 +1512,9 @@
         "vertical_drop": "3340",
         "snowfall": "325", 
         "url": "https://www.beavercreek.com/",
-        "image": "src/assets/resort-images/beavercreek.jpeg"
+        "image": "src/assets/resort-images/beavercreek.jpeg",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 118,
@@ -1311,7 +1525,9 @@
         "vertical_drop": "3398",
         "snowfall": "353", 
         "url": "https://www.breckenridge.com/",
-        "image": "src/assets/resort-images/breckenridge.webp"
+        "image": "src/assets/resort-images/breckenridge.webp",
+        "favorite": false,
+        "visited": false
       }, 
       {
         "id": 119,
@@ -1322,7 +1538,9 @@
         "vertical_drop": "2601",
         "snowfall": "282", 
         "url": "https://www.coppercolorado.com/",
-        "image": "src/assets/resort-images/copper.webp"
+        "image": "src/assets/resort-images/copper.webp",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 120,
@@ -1333,7 +1551,9 @@
         "vertical_drop": "3055",
         "snowfall": "300", 
         "url": "https://www.skicb.com/",
-        "image": "src/assets/resort-images/crestedbutte.jpeg"
+        "image": "src/assets/resort-images/crestedbutte.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 121,
@@ -1344,7 +1564,9 @@
         "vertical_drop": "2527",
         "snowfall": "248", 
         "url": "https://www.lemassif.com/en",
-        "image": "src/assets/resort-images/lemassif.jpeg"
+        "image": "src/assets/resort-images/lemassif.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 122,
@@ -1355,7 +1577,9 @@
         "vertical_drop": "2120",
         "snowfall": "156", 
         "url": "https://www.tremblant.ca/",
-        "image": "src/assets/resort-images/monttremblant.webp"
+        "image": "src/assets/resort-images/monttremblant.webp",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 123,
@@ -1366,7 +1590,9 @@
         "vertical_drop": "2050",
         "snowfall": "187", 
         "url": "https://mont_sainte_anne.com/en/",
-        "image": "src/assets/resort-images/montsainteanne.jpeg"
+        "image": "src/assets/resort-images/montsainteanne.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 124,
@@ -1377,7 +1603,9 @@
         "vertical_drop": "1264",
         "snowfall": "190", 
         "url": "https://www.bromontmontagne.com/en/",
-        "image": "src/assets/resort-images/skibromont.jpeg"
+        "image": "src/assets/resort-images/skibromont.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 125,
@@ -1388,7 +1616,9 @@
         "vertical_drop": "1200",
         "snowfall": "300", 
         "url": "https://www.eldora.com/",
-        "image": "src/assets/resort-images/eldora.jpeg"
+        "image": "src/assets/resort-images/eldora.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 126,
@@ -1399,7 +1629,9 @@
         "vertical_drop": "1000",
         "snowfall": "220", 
         "url": "https://granbyranch.com/",
-        "image": "src/assets/resort-images/granbyranch.jpeg"
+        "image": "src/assets/resort-images/granbyranch.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 127,
@@ -1410,7 +1642,9 @@
         "vertical_drop": "3128",
         "snowfall": "235", 
         "url": "https://www.keystoneresort.com/",
-        "image": "src/assets/resort-images/keystone.jpeg"
+        "image": "src/assets/resort-images/keystone.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 128,
@@ -1421,7 +1655,9 @@
         "vertical_drop": "2210",
         "snowfall": "422", 
         "url": "https://skiloveland.com/",
-        "image": "src/assets/resort-images/loveland.jpeg"
+        "image": "src/assets/resort-images/loveland.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 129,
@@ -1432,7 +1668,9 @@
         "vertical_drop": "4406",
         "snowfall": "300", 
         "url": "https://www.aspensnowmass.com/",
-        "image": "src/assets/resort-images/snowmass.png"
+        "image": "src/assets/resort-images/snowmass.png",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 130,
@@ -1443,7 +1681,9 @@
         "vertical_drop": "3668",
         "snowfall": "349", 
         "url": "https://www.steamboat.com/",
-        "image": "src/assets/resort-images/steamboatsprings.jpeg"
+        "image": "src/assets/resort-images/steamboatsprings.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 131,
@@ -1454,7 +1694,9 @@
         "vertical_drop": "4425",
         "snowfall": "309", 
         "url": "https://tellurideskiresort.com/",
-        "image": "src/assets/resort-images/telluride.jpeg"
+        "image": "src/assets/resort-images/telluride.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 132,
@@ -1465,7 +1707,9 @@
         "vertical_drop": "3450",
         "snowfall": "354", 
         "url": "https://www.vail.com/",
-        "image": "src/assets/resort-images/Vail.jpeg"
+        "image": "src/assets/resort-images/Vail.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 133,
@@ -1476,7 +1720,9 @@
         "vertical_drop": "3450",
         "snowfall": "365", 
         "url": "https://www.winterparkresort.com/",
-        "image": "src/assets/resort-images/winterpark.jpeg"
+        "image": "src/assets/resort-images/winterpark.jpeg",
+        "favorite": false,
+        "visited": false
       },
       {
         "id": 134,
@@ -1487,7 +1733,9 @@
         "vertical_drop": "1604",
         "snowfall": "465", 
         "url": "https://wolfcreekski.com/",
-        "image": "src/assets/resort-images/wolfcreek.jpg"
+        "image": "src/assets/resort-images/wolfcreek.jpg",
+        "favorite": false,
+        "visited": false
       }
     ]
   }

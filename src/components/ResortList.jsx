@@ -3,12 +3,11 @@ import ResortCard from "./ResortCard"
 import Search from "./Search"
 
 
-function ResortList({ resorts, onHandleAddResort }) {
+function ResortList({ resorts, onHandleIsFavoriteResort }) {
     const resortsArray = resorts.map((resort) => {
         return <ResortCard 
             key={resort.id} 
             resort={resort}
-            onFavoriteResort={onHandleAddResort}
         />
     }); 
 

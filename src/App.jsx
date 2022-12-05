@@ -9,7 +9,7 @@ import NewResortForm from "./components/NewResortForm";
 function App() {
 
   const [ resorts, setResorts ] = useState([])
-  const [ favoriteResorts, setFavoriteResorts ] = useState([])
+
 
   useEffect(() => {
       fetch(" http://localhost:4000/resorts")
@@ -17,18 +17,6 @@ function App() {
           .then((resorts) => setResorts(resorts))
   }, [])
 
-  function handleAddResort(resortToAdd){
-    const resortInFavorites = favoriteResorts.find((resort) => resort.id === resortToAdd.id); 
-      if(!resortInFavorites) {
-        setFavoriteResorts([...favoriteResorts, resortToAdd])
-      }
-  }
-
-  function handleRemoveResort(resortToRemove){
-    setFavoriteResorts((favoriteResorts) => 
-      favoriteResorts.filter((resort) => resort.id !== resortToRemove.id)
-    );
-  }
 
   return (
     <div >
@@ -37,13 +25,11 @@ function App() {
         <Route exact path="/All-Resorts">
           <ResortList 
             resorts={resorts}
-            onHandleAddResort={handleAddResort}
           />
         </Route>
         <Route exact path="/Favorites">
           <Favorites
-            favoriteResorts={favoriteResorts}
-            onHandleRemoveResort={handleRemoveResort}
+            resorts={resorts}
           />
         </Route>
         <Route exact path="/NewResortForm">

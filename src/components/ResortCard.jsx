@@ -1,17 +1,15 @@
 import React from "react";
 
-function ResortCard({ resort, onFavoriteResort }) {
+function ResortCard({ resort }) {
 
     const { id, name, country, state, acres, vertical_drop, snowfall, url, image } = resort
 
-    function onFavoriteClick(){
-        onFavoriteResort(resort)
-    }
+  
   
     return (
         <div className="resort-card">
             <div className="favorite-btn">
-                <button onClick={onFavoriteClick}>Favorite</button>
+                <button>Favorite</button>
             </div>
             <h2 className="resort-name">{name}</h2>
             <p className="resort-location">{state}, {country}</p>

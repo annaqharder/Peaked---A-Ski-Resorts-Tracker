@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
     display: "inline-block",
-    width: "50px",
+    width: "100px",
     padding: "12px",
     margin: "0 6px 6px",
     background: "lightblue",
@@ -19,7 +19,7 @@ function NavBar() {
                 exact 
                 style={linkStyles}
                 activeStyle={{
-                    background: "blue"
+                    background: "mediumblue"
                 }}
             >
             All Resorts
@@ -29,7 +29,7 @@ function NavBar() {
                 exact 
                 style={linkStyles}
                 activeStyle={{
-                    background: "darkblue"
+                    background: "mediumblue"
                 }}
             >
             Favorites
@@ -39,7 +39,7 @@ function NavBar() {
                 exact 
                 style={linkStyles}
                 activeStyle={{
-                    background: "darkblue"
+                    background: "mediumblue"
                 }}
             >
             Add Resort

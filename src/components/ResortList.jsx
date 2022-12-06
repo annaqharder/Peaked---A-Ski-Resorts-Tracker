@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import ResortCard from "./ResortCard"
 import Search from "./Search"
 
-function ResortList({ resorts, setSearchQuery, searchQuery, onFavoritedResort}) {
+function ResortList({ resorts, setSearchQuery, searchQuery, onFavoritedResort,  sortBy, onChangeSort, filterBy, onChangeFilter}) {
     const resortsArray = resorts.map((resort) => {
         return <ResortCard 
             key={resort.id} 
@@ -16,6 +16,10 @@ function ResortList({ resorts, setSearchQuery, searchQuery, onFavoritedResort}) 
             <Search 
                 searchQuery={searchQuery} 
                 setSearchQuery={setSearchQuery}
+                sortBy={sortBy}
+                onChangeSort={onChangeSort}
+                filterBy={filterBy}
+                onChangeFilter={onChangeFilter}
             />
             <ul className="app-container">{resortsArray}</ul>
         </div>

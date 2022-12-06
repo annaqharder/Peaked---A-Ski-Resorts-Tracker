@@ -16,11 +16,7 @@ function ResortCard({ resort, onFavoritedResort}) {
         body: JSON.stringify({favorite: !favorite})
         })
             .then(response => response.json())
-            // if page == 1
             .then(updatedResort => onFavoritedResort(updatedResort))
-            // else 
-            // .then (updatedResort => onUnfavoritedResort(updatedResort))
-
     }
     
 

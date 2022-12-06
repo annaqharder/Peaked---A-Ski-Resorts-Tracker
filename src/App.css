@@ -2,6 +2,13 @@
     font-family: Prompt, sans-serif;
 }
 
+html {
+    /* max-width: 100%; */
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px; 
+}
+
 .resort-image {
     max-width: 100%;
     max-height: auto;
@@ -57,15 +64,74 @@
 .app-container {
     display: flex;
     display: grid;
-    grid-template-columns:repeat(5, 1fr);
+    grid-template-columns:repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 20px;
+    padding-left: 25px;
 }
 
 .favorites-container {
     display: flex;
     display: grid;
-    grid-template-columns:repeat(5, 1fr);
+    grid-template-columns:repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.search {
+    text-align: center;
+}
+
+.new-resort-form {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-style: solid;
+}
+
+.form-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/background2.jpg");
+    background-size: cover;
+    background-repeat: none;
+
+}
+
+.form-resortname {
+    padding: 5px; 
+    margin-bottom: 15px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.form-resortcountry, .form-resortstate, .form-resortacres, .form-resortverticaldrop, .form-resortsnowfall, .form-resorturl, .form-resortimage {
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.form-resortfavorite{
+    padding: 5px; 
+    margin-bottom: 15px;
+}
+
+.form-resortvisited {
+    margin-bottom: 30px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
 }

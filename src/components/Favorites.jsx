@@ -10,7 +10,7 @@ function Favorites({ resorts }) {
     ))
 
     return (
-        <div >
+        <div>
             <h2>Favorite Ski Resorts</h2>
             <ul className="favorites-container">{favoriteResortCard}</ul>
         </div>

@@ -1,15 +1,38 @@
-import React from "react";
+import React, {useState} from "react";
 
-function ResortCard({ resort }) {
+function ResortCard({ resort, onFavoritedResort}) {
 
-    const { id, name, country, state, acres, vertical_drop, snowfall, url, image } = resort
+    const { id, name, country, state, acres, vertical_drop, snowfall, url, image, favorite } = resort
 
-  
-  
+    const [ isFavorited, setIsFavorited ] = useState(favorite)
+
+    const handleFavoritedChange = () => {
+        setIsFavorited(isFavorited => !isFavorited)
+        fetch(`http://localhost:4000/resorts/${id}`, {
+        method: "PATCH",
+        headers: {
+            "Content-Type": "application/json"
+        }, 
+        body: JSON.stringify({favorite: !favorite})
+        })
+            .then(response => response.json())
+            // if page == 1
+            .then(updatedResort => onFavoritedResort(updatedResort))
+            // else 
+            // .then (updatedResort => onUnfavoritedResort(updatedResort))
+
+    }
+    
+
+
     return (
         <div className="resort-card">
             <div className="favorite-btn">
-                <button>Favorite</button>
+                {isFavorited? (
+                <button onClick={handleFavoritedChange}>Remove from Favorites</button>
+                ) : ( 
+                <button onClick={handleFavoritedChange}>Add to Favorites</button>
+                )}
             </div>
             <h2 className="resort-name">{name}</h2>
             <p className="resort-location">{state}, {country}</p>

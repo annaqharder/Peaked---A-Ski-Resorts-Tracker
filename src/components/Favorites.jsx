@@ -11,8 +11,12 @@ function Favorites({ resorts }) {
 
     return (
         <div>
-            <h2>Favorite Ski Resorts</h2>
-            <ul className="favorites-container">{favoriteResortCard}</ul>
+            <div>
+                <h2 className="favorite-resort-header">Favorite Ski Resorts</h2>
+            </div>
+            <div>
+                <ul className="favorites-container">{favoriteResortCard}</ul>
+            </div>
         </div>
      );
 }

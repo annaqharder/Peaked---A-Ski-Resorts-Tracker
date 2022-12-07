@@ -54,77 +54,101 @@ function NewResortForm({onNewResort}) {
         <div className="new-resort-form">
             <h2>Add New Ski Resort</h2>
             <form onSubmit={onSubmit} >
-                <input 
-                className="form-resortname"
-                type="text" 
-                name="name" 
-                placeholder="Resort Name" 
-                value={formData.name}
-                onChange={handleFormChange}
-                />
+                <div>
+                    <h4 className="form-labels">Resort Name:</h4>
+                    <input 
+                    className="form-resortname"
+                    type="text" 
+                    name="name" 
+                    placeholder="Resort Name..." 
+                    value={formData.name}
+                    onChange={handleFormChange}
+                    />
+                </div>
+                    <br/>
+                <div>
+                    <h4 className="form-labels">Resort Country:</h4>
+                    <input 
+                    className="form-resortcountry"
+                    type="text" 
+                    name="country" 
+                    placeholder="Resort Country..." 
+                    value={formData.country}
+                    onChange={handleFormChange}
+                    />
+                </div>
                 <br/>
-                <input 
-                className="form-resortcountry"
-                type="text" 
-                name="country" 
-                placeholder="Resort Country" 
-                value={formData.country}
-                onChange={handleFormChange}
-                />
+                <div>
+                    <h4 className="form-labels">Resort State/Providence:</h4>
+                    <input 
+                    className="form-resortstate"
+                    type="text" 
+                    name="state" 
+                    placeholder="Resort State/Providence..." 
+                    value={formData.state}
+                    onChange={handleFormChange}
+                    />
+                </div>
                 <br/>
-                <input 
-                className="form-resortstate"
-                type="text" 
-                name="state" 
-                placeholder="Resort State/Providence" 
-                value={formData.state}
-                onChange={handleFormChange}
-                />
+                <div>
+                    <h4 className="form-labels">Terrain:</h4>
+                    <input 
+                    className="form-resortacres"
+                    type="number" 
+                    name="acres" 
+                    placeholder="Terrain (acres)..." 
+                    value={formData.acres}
+                    onChange={handleFormChange}
+                    />
+                </div>
                 <br/>
-                <input 
-                className="form-resortacres"
-                type="number" 
-                name="acres" 
-                placeholder="Terrain (acres)" 
-                value={formData.acres}
-                onChange={handleFormChange}
-                />
+                <div>
+                    <h4 className="form-labels">Vertical Drop:</h4>
+                    <input 
+                    className="form-resortverticaldrop"
+                    type="number" 
+                    name="vertical_drop" 
+                    placeholder="Vertical Drop (ft)..." 
+                    value={formData.vertical_drop}
+                    onChange={handleFormChange}
+                    />
+                </div>
                 <br/>
-                <input 
-                className="form-resortverticaldrop"
-                type="number" 
-                name="vertical_drop" 
-                placeholder="Vertical Drop (ft)" 
-                value={formData.vertical_drop}
-                onChange={handleFormChange}
-                />
+                <div>
+                    <h4 className="form-labels">Annual Snowfall:</h4>
+                    <input 
+                    className="form-resortsnowfall"
+                    type="number" 
+                    name="snowfall" 
+                    placeholder="Annual Snowfall (in)..." 
+                    value={formData.name}
+                    onChange={handleFormChange}
+                    />
+                </div>
                 <br/>
-                <input 
-                className="form-resortsnowfall"
-                type="number" 
-                name="snowfall" 
-                placeholder="Annual Snowfall (in)" 
-                value={formData.name}
-                onChange={handleFormChange}
-                />
+                <div>
+                    <h4 className="form-labels">Resort Website:</h4>
+                    <input 
+                    className="form-resorturl"
+                    type="text"
+                    name="url"
+                    placeholder="Website URL..." 
+                    value={formData.url}
+                    onChange={handleFormChange}
+                    />
+                </div>
                 <br/>
-                <input 
-                className="form-resorturl"
-                type="text"
-                name="url"
-                placeholder="Website URL" 
-                value={formData.url}
-                onChange={handleFormChange}
-                />
-                <br/>
-                <input 
-                className="form-resortimage"
-                type="text"
-                name="image"
-                placeholder="Image URL" 
-                value={formData.image}
-                onChange={handleFormChange}
-                />
+                <div>
+                    <h4 className="form-labels">Resort Image:</h4>
+                    <input 
+                    className="form-resortimage"
+                    type="text"
+                    name="image"
+                    placeholder="Image URL..." 
+                    value={formData.image}
+                    onChange={handleFormChange}
+                    />
+                </div>
                 <br/>
                 <input 
                 className="form-resortfavorite"
@@ -133,7 +157,7 @@ function NewResortForm({onNewResort}) {
                 value={formData.favorite}
                 onChange={handleChecked}
                 />
-                    <label>Favorite</label>
+                    <label>Favorite?</label>
                 <br/>
                 <input 
                 className="form-resortvisited"
@@ -142,7 +166,7 @@ function NewResortForm({onNewResort}) {
                 value={formData.visited}
                 onChange={handleChecked}
                 />
-                    <label>Visited</label>
+                    <label>Visited?</label>
                 <br/>
                 <button type="submit">Add Resort</button>
             </form>

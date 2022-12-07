@@ -16,16 +16,21 @@ function Search({ searchQuery, setSearchQuery, onChangeSort, sortBy, filterBy, o
     }
 
     return (
-        <div className="search">
-            <input 
-                type="text"
-                value={searchQuery}
-                onChange={handleSearchChange}
-                placeholder="Search..."
-            />
+        <div className="search-container">
+            <div>
+                <strong> Search for Resort: </strong>
+                        <input 
+                            id="searchbar"
+                            type="text"
+                            value={searchQuery}
+                            onChange={handleSearchChange}
+                            placeholder=" Resort Name ..."
+                        />
+            </div>
+            <div id="filter-container">
             <label>
                 <strong> Filter by State/Providence: </strong>
-                <select onChange={handleFilterChange} value={filterBy}>
+                <select onChange={handleFilterChange} value={filterBy} id="filterbar">
                 <option>All</option>
                 <optgroup label="United States">
                     <option value="Alabama">Alabama</option>
@@ -81,6 +86,8 @@ function Search({ searchQuery, setSearchQuery, onChangeSort, sortBy, filterBy, o
                 </optgroup>
                 </select>
             </label>
+            </div>
+            <div>
             <strong> Sort by:</strong>
             <label>
                 <input
@@ -102,6 +109,7 @@ function Search({ searchQuery, setSearchQuery, onChangeSort, sortBy, filterBy, o
                 />
                 Country
             </label>
+            </div>
         </div>
     );
 }

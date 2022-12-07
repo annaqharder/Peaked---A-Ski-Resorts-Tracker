@@ -6,6 +6,7 @@ import ResortList from './components/ResortList';
 import Favorites from './components/Favorites';
 import NewResortForm from "./components/NewResortForm";
 import Search from './components/Search';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -13,7 +14,6 @@ function App() {
   const [ searchQuery, setSearchQuery ] = useState("")
   const [ sortBy, setSortBy ] = useState("Alphabetically");
   const [ filterBy, setFilterBy ] = useState("All")
-
  
   useEffect(() => {
       fetch("http://localhost:4000/resorts")
@@ -23,7 +23,7 @@ function App() {
 
  
   function handleNewResort(newResort){
-    setResorts([...resorts, newResort])
+    setResorts([newResort, ...resorts])
   }
 
   function handleFavoritedResort(updatedResort){
@@ -69,7 +69,6 @@ function App() {
             onChangeSort={setSortBy} 
             filterBy={filterBy}
             onChangeFilter={setFilterBy}
-
           />
         </Route>
         <Route exact path="/Favorites">
@@ -82,6 +81,7 @@ function App() {
             onNewResort={handleNewResort}/>
         </Route>
       </Switch>
+      <Footer />
     </div>
   )
 }

@@ -62,7 +62,7 @@
       "snowfall": "180",
       "url": "https://www.skilouise.com/",
       "image": "src/assets/resort-images/lakelouise.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -218,7 +218,7 @@
       "snowfall": "360",
       "url": "https://skifernie.com/",
       "image": "src/assets/resort-images/fernie.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -1219,7 +1219,7 @@
       "snowfall": "560",
       "url": "https://www.alta.com/",
       "image": "src/assets/resort-images/alta.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -1479,7 +1479,7 @@
       "snowfall": "459",
       "url": "https://www.jacksonhole.com/",
       "image": "src/assets/resort-images/jacksonhole.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -1493,7 +1493,7 @@
       "url": "https://www.arapahoebasin.com/",
       "image": "src/assets/resort-images/abasin.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 116,
@@ -1532,7 +1532,7 @@
       "url": "https://www.breckenridge.com/",
       "image": "src/assets/resort-images/breckenridge.webp",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 119,
@@ -1544,8 +1544,8 @@
       "snowfall": "282",
       "url": "https://www.coppercolorado.com/",
       "image": "src/assets/resort-images/copper.webp",
-      "favorite": false,
-      "visited": false
+      "favorite": true,
+      "visited": true
     },
     {
       "id": 120,
@@ -1558,7 +1558,7 @@
       "url": "https://www.skicb.com/",
       "image": "src/assets/resort-images/crestedbutte.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 121,
@@ -1623,7 +1623,7 @@
       "url": "https://www.eldora.com/",
       "image": "src/assets/resort-images/eldora.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 126,
@@ -1636,7 +1636,7 @@
       "url": "https://granbyranch.com/",
       "image": "src/assets/resort-images/granbyranch.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 127,
@@ -1649,7 +1649,7 @@
       "url": "https://www.keystoneresort.com/",
       "image": "src/assets/resort-images/keystone.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 128,
@@ -1662,7 +1662,7 @@
       "url": "https://skiloveland.com/",
       "image": "src/assets/resort-images/loveland.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 129,
@@ -1688,7 +1688,7 @@
       "url": "https://www.steamboat.com/",
       "image": "src/assets/resort-images/steamboatsprings.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 131,
@@ -1700,7 +1700,7 @@
       "snowfall": "309",
       "url": "https://tellurideskiresort.com/",
       "image": "src/assets/resort-images/telluride.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -1713,8 +1713,8 @@
       "snowfall": "354",
       "url": "https://www.vail.com/",
       "image": "src/assets/resort-images/Vail.jpeg",
-      "favorite": false,
-      "visited": false
+      "favorite": true,
+      "visited": true
     },
     {
       "id": 133,
@@ -1727,7 +1727,7 @@
       "url": "https://www.winterparkresort.com/",
       "image": "src/assets/resort-images/winterpark.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 134,

@@ -141,7 +141,7 @@
       "url": "https://www.bigwhite.com/geo/usa",
       "image": "src/assets/resort-images/bigwhite.webp",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 12,
@@ -1220,7 +1220,7 @@
       "url": "https://www.alta.com/",
       "image": "src/assets/resort-images/alta.jpeg",
       "favorite": true,
-      "visited": true
+      "visited": false
     },
     {
       "id": 95,
@@ -1727,7 +1727,7 @@
       "url": "https://www.winterparkresort.com/",
       "image": "src/assets/resort-images/winterpark.jpeg",
       "favorite": false,
-      "visited": true
+      "visited": false
     },
     {
       "id": 134,
@@ -1751,7 +1751,7 @@
       "snowfall": "350",
       "url": "https://bluebirdbackcountry.com/",
       "image": "https://imageio.forbes.com/specials-images/imageserve/6369300209316f82c042ae4f/0x0.jpg?format=jpg&width=1200",
-      "favorite": true,
+      "favorite": false,
       "visited": false,
       "id": 135
     },

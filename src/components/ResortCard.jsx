@@ -1,6 +1,6 @@
 import React, {useState, useTransition} from "react";
 
-function ResortCard({ resort, onFavoritedResort}) {
+function ResortCard({ resort, onFavoritedResort, onUnfavoriteResort}) {
 
     const { id, name, country, state, acres, vertical_drop, snowfall, url, image, favorite, visited } = resort
 
@@ -19,7 +19,7 @@ function ResortCard({ resort, onFavoritedResort}) {
         body: JSON.stringify({favorite: !favorite})
         })
             .then(response => response.json())
-            .then(updatedResort => onFavoritedResort(updatedResort))
+            .then(updatedResort => setIsFavorited ? onFavoritedResort(updatedResort) : onUnfavoriteResort(updatedResort))
     }
 
     function handleDarkModeClick (){

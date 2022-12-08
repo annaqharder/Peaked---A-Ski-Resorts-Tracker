@@ -37,6 +37,11 @@ function App() {
     setResorts(updatedResortArray)
   }
 
+  function unfavoriteResort(unlikeResort){
+    const unLiked = resorts.filter((resort) => resort.id !== unlikeResort.id); 
+    setResorts(unLiked)
+  }
+
   const sortedResorts = [...resorts].sort((resort1, resort2) => {
     if (sortBy === "Alphabetically") {
       return resort1.name.localeCompare(resort2.name); 
@@ -49,7 +54,7 @@ function App() {
 
   const filteredSearchResorts = sortedResorts.filter((resort) => {
     if (filterBy === "All") return true; 
-    return resort.state === filterBy}); 
+    return (resort.state.toLowerCase()) === filterBy.toLowerCase()}); 
 
   const filteredResorts = filteredSearchResorts.filter((resort) => {
     return (resort.name.toLowerCase().includes(searchQuery.toLowerCase()))
@@ -65,6 +70,7 @@ function App() {
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
             onFavoritedResort={handleFavoritedResort}
+            onUnfavoritedResort={unfavoriteResort}
             sortBy={sortBy}
             onChangeSort={setSortBy} 
             filterBy={filterBy}
@@ -74,6 +80,8 @@ function App() {
         <Route exact path="/Favorites">
           <Favorites
             resorts={resorts}
+            onUnfavoriteResort={unfavoriteResort}
+            onFavoritedResort={handleFavoritedResort}
           />
         </Route>
         <Route exact path="/NewResortForm">

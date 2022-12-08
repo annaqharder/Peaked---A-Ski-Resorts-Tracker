@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import ResortCard from "./ResortCard";
 
 function NewResortForm({onNewResort}) {
     const [ formData, setFormData ] = useState({
@@ -38,7 +39,22 @@ function NewResortForm({onNewResort}) {
             body: JSON.stringify(newResort)
         })
             .then((response) => response.json())
-            .then((newResort) => onNewResort(newResort))
+            .then((newResort) => onNewResort(newResort));
+
+            setFormData({
+                name: "",
+                country: "",
+                state: "",
+                acres: "",
+                vertical_drop: "",
+                snowfall: "",
+                url: "",
+                image: "", 
+                favorite: false, 
+                visited: false, 
+            }); 
+
+            alert("NEW SKI RESORT HAS BEEN ADDED!") 
     }; 
 
     function handleFormChange(event){
@@ -168,7 +184,7 @@ function NewResortForm({onNewResort}) {
                 />
                     <label>Visited?</label>
                 <br/>
-                <button type="submit">Add Resort</button>
+                <button type="button" onClick={onSubmit}>Add Resort</button>
             </form>
         </div> 
         </div>

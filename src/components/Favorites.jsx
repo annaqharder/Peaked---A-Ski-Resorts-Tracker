@@ -1,12 +1,17 @@
 import React from "react";
 import ResortCard from "./ResortCard"
 
-function Favorites({ resorts }) {
-
+function Favorites({ resorts, onUnfavoriteResort, onFavoritedResort }) {
     const favoriteResorts = resorts.filter((resort) => (resort.favorite))
 
     const favoriteResortCard = favoriteResorts.map((resort) => (
-        <ResortCard key={resort.id} resort={resort} />
+        <ResortCard 
+            key={resort.id} 
+            resort={resort} 
+            onUnfavoriteResort={onUnfavoriteResort} 
+            onFavoritedResort={onFavoritedResort}
+
+        />
     ))
 
     return (

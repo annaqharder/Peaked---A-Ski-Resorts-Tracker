@@ -11,7 +11,7 @@
       "url": "https://www.alyeskaresort.com/",
       "image": "src/assets/resort-images/Alyeska.jpeg",
       "favorite": false,
-      "visited": true
+      "visited": false
     },
     {
       "id": 2,
@@ -1499,11 +1499,11 @@
       "id": 116,
       "name": "Aspen Mountain",
       "country": "United States",
-      "state": "California",
+      "state": "Colorado",
       "acres": "1010",
       "vertical_drop": "2530",
       "snowfall": "300",
-      "url": "https://www.aspensnowmass.com/four_mountains/aspen_mountain",
+      "url": "https://www.aspensnowmass.com/four-mountains/aspen-mountain",
       "image": "src/assets/resort-images/aspen.webp",
       "favorite": false,
       "visited": false

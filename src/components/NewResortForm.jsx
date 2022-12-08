@@ -168,18 +168,18 @@ function NewResortForm({onNewResort}) {
                 <br/>
                 <input 
                 className="form-resortfavorite"
-                type="radio" 
+                type="checkbox" 
                 name="favorite" 
-                value={formData.favorite}
+                checked={formData.favorite}
                 onChange={handleChecked}
                 />
                     <label>Favorite?</label>
                 <br/>
                 <input 
                 className="form-resortvisited"
-                type="radio" 
+                type="checkbox" 
                 name="visited" 
-                value={formData.visited}
+                checked={formData.visited}
                 onChange={handleChecked}
                 />
                     <label>Visited?</label>

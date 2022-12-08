@@ -11,7 +11,7 @@
       "url": "https://www.alyeskaresort.com/",
       "image": "src/assets/resort-images/Alyeska.jpeg",
       "favorite": false,
-      "visited": false
+      "visited": true
     },
     {
       "id": 2,
@@ -296,7 +296,7 @@
       "snowfall": "360",
       "url": "https://www.skiheavenly.com/",
       "image": "src/assets/resort-images/heavenly.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -1089,7 +1089,7 @@
       "snowfall": "462",
       "url": "https://www.mtbachelor.com/",
       "image": "src/assets/resort-images/mtbachelor.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -1220,7 +1220,7 @@
       "url": "https://www.alta.com/",
       "image": "src/assets/resort-images/alta.jpeg",
       "favorite": true,
-      "visited": false
+      "visited": true
     },
     {
       "id": 95,
@@ -1336,7 +1336,7 @@
       "snowfall": "250",
       "url": "https://www.killington.com/",
       "image": "src/assets/resort-images/killington.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -1453,7 +1453,7 @@
       "snowfall": "641",
       "url": "https://www.mtbaker.us/",
       "image": "src/assets/resort-images/mtbaker-washington.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {
@@ -1492,7 +1492,7 @@
       "snowfall": "350",
       "url": "https://www.arapahoebasin.com/",
       "image": "src/assets/resort-images/abasin.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": true
     },
     {
@@ -1531,7 +1531,7 @@
       "snowfall": "353",
       "url": "https://www.breckenridge.com/",
       "image": "src/assets/resort-images/breckenridge.webp",
-      "favorite": false,
+      "favorite": true,
       "visited": true
     },
     {
@@ -1557,7 +1557,7 @@
       "snowfall": "300",
       "url": "https://www.skicb.com/",
       "image": "src/assets/resort-images/crestedbutte.jpeg",
-      "favorite": false,
+      "favorite": true,
       "visited": true
     },
     {
@@ -1741,6 +1741,19 @@
       "image": "src/assets/resort-images/wolfcreek.jpg",
       "favorite": false,
       "visited": false
+    },
+    {
+      "name": "Bluebird Backcountry",
+      "country": "United States",
+      "state": "Colorado",
+      "acres": "4200",
+      "vertical_drop": "1242",
+      "snowfall": "350",
+      "url": "https://bluebirdbackcountry.com/",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6369300209316f82c042ae4f/0x0.jpg?format=jpg&width=1200",
+      "favorite": false,
+      "visited": false,
+      "id": 135
     }
   ]
 }

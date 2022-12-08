@@ -121,7 +121,7 @@ function NewResortForm({onNewResort}) {
                     type="number" 
                     name="snowfall" 
                     placeholder="Annual Snowfall (in)..." 
-                    value={formData.name}
+                    value={formData.snowfall}
                     onChange={handleFormChange}
                     />
                 </div>

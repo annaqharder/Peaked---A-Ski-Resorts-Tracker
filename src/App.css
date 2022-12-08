@@ -78,6 +78,7 @@ html {
     /* background-color: #309fa1cc; */
     background-color:rgba(64, 133, 157, 0.671);
     padding: 35px;
+    color: rgb(34, 53, 60); 
 }
 
 #searchbar {
@@ -214,6 +215,7 @@ a:hover{
     padding: 25px;
     margin-top: 0px;
     margin-bottom: 10px;
+    color: rgb(34, 53, 60);
 }
 
 .favorites-container {
@@ -252,6 +254,7 @@ a:hover{
     background-image: url("assets/background2.jpg");
     background-size: cover;
     background-repeat: none;
+    color: rgb(34, 53, 60);
 }
 
 .form-resortname {

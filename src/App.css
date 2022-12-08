@@ -1,5 +1,6 @@
-* {
+* :not(.website-title){
     font-family: Prompt, sans-serif;
+    /* font-family: 'Coda', cursive; */
 }
 
 body {
@@ -18,7 +19,8 @@ html {
     background-color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 7px;
+    padding-left: 15px;
 }
 
 #logo-container{
@@ -33,14 +35,15 @@ html {
     align-self: flex-end;
     font-size: 40px;
     font-family: inherit;
-    margin-bottom: 2px;
-    color: rgb(31, 65, 76)
+    margin-bottom: 0px;
+    color: rgb(31, 65, 76);
+    font-family: 'Coda', cursive;  
 }
 
 .website-subtitle {
     align-self: flex-end;
     font-size: 15px; 
-    font-family: Prompt, sans-serif;
+    /* font-family: Prompt, sans-serif; */
     margin-top: 0px;
     color: rgb(31, 65, 76);
     margin-bottom: 0px;
@@ -55,7 +58,7 @@ html {
 }
 
 #logo-image {
-    height: 100px; 
+    height: 115px; 
 }
 
 .navbar > a {

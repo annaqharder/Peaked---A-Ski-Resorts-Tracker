@@ -7,8 +7,8 @@ function NavBar() {
             <div id="logo-container">
                 <img id="logo-image" src="src/assets/logoimage.PNG"/>
                 <div id="logo-text">
-                    <h2 className="website-title"> PEAKED</h2>
-                    <h4 className="website-subtitle"> your favorite ski resorts in one place</h4>
+                    <h2 className="website-title"><b>PEAKED</b></h2>
+                    <h4 className="website-subtitle"> your favorite ski resorts in one place.</h4>
                 </div>
             </div>
             <nav id="navbar-container" className="navbar">

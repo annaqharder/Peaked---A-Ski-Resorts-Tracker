@@ -19,7 +19,8 @@ function ResortCard({ resort, onFavoritedResort, onUnfavoriteResort}) {
         body: JSON.stringify({favorite: !favorite})
         })
             .then(response => response.json())
-            .then(updatedResort => setIsFavorited ? onFavoritedResort(updatedResort) : onUnfavoriteResort(updatedResort))
+            .then((updatedResort)=> onFavoritedResort(updatedResort))
+            // .then(updatedResort => setIsFavorited ? onFavoritedResort(updatedResort) : onUnfavoriteResort(updatedResort))
     }
 
     function handleDarkModeClick (){

@@ -208,7 +208,7 @@ a:hover{
     grid-template-columns:repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 20px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 .favorite-resort-header {
@@ -227,7 +227,7 @@ a:hover{
     grid-template-columns:repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 20px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 .search {

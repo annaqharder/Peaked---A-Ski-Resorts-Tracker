@@ -19,7 +19,7 @@ function Search({ searchQuery, setSearchQuery, onChangeSort, sortBy, filterBy, o
         <div className="search-container">
             <div>
                 <strong> Search for Resort: </strong>
-                        <input 
+                        <input
                             id="searchbar"
                             type="text"
                             value={searchQuery}

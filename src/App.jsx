@@ -57,8 +57,8 @@ function App() {
     return (resort.state.toLowerCase()) === filterBy.toLowerCase()}); 
 
   const filteredResorts = filteredSearchResorts.filter((resort) => {
-    return (resort.name.toLowerCase().includes(searchQuery.toLowerCase()))
-  }) 
+    return (resort.name.toLowerCase().includes(searchQuery.toLowerCase()) || resort.name.toLowerCase().includes(searchQuery.toLowerCase()) )
+  })
 
   return (
     <div >

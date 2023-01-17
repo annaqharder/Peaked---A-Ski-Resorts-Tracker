@@ -10,7 +10,7 @@ function ResortList({ resorts, setSearchQuery, searchQuery, onFavoritedResort, o
             onFavoritedResort={onFavoritedResort}
             onUnfavoritedResort={onUnfavoritedResort}
         />
-    }); 
+    });
 
     return (
         <div className="all-cards">

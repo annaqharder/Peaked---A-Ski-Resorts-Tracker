@@ -1674,7 +1674,7 @@
       "snowfall": "300",
       "url": "https://www.aspensnowmass.com/",
       "image": "src/assets/resort-images/snowmass.png",
-      "favorite": false,
+      "favorite": true,
       "visited": false
     },
     {

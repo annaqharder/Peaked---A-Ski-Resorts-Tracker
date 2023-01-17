@@ -20,3 +20,5 @@ To start client side:
 ```
 $ npm run dev
 ```
+
+src/assets/application_preview.png

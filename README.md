@@ -9,3 +9,14 @@ As a user:
  - I can click on an embedded link on each ski resort card that will direct me to the specific ski resort's website.
  - I can click on the star icon to indicate a "favorite" resort and that ski resort will now appear in the "Favorites" tab.
  - I can also click on the google icon to indicate I have visited that resort, and the colorway of the card will change to dark theme so it is easy to visualize which ski resorts I have visited.
+
+
+To start server side:
+```
+$ npm run server
+```
+
+To start client side:
+```
+$ npm run dev
+```

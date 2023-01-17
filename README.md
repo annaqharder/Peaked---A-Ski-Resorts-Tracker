@@ -21,4 +21,4 @@ To start client side:
 $ npm run dev
 ```
 
-src/assets/application_preview.png
+<img src="src/assets/application_preview.png" title="Preview of Home Page">

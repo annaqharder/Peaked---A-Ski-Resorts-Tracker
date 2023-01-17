@@ -1,4 +1,6 @@
-# Flatiron-Phase-2-Project: As an avid skier, I decided to build a web application where I could track the ski resorts I have skied. My website, Peaked, allows users to browse (filter and search), favorite, and track ski resorts within North America. Peaked is designed to help users track ski resorts they have visited, add a ski resort not found within the database, as well as organize ski resorts they love and/or want to visit in the future.
+# PEAKED | your favorite ski resorts in one place.
+
+Summary: As an avid skier, I decided to build a web application where I could track the ski resorts I have skied. My website, Peaked, allows users to browse (filter and search), favorite, and track ski resorts within North America. Peaked is designed to help users track ski resorts they have visited, add a ski resort not found within the database, as well as organize ski resorts they love and/or want to visit in the future.
 
 As a user:
  - I can search ski resorts in North America using a Search bar and a filterable list.

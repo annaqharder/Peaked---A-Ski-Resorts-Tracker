@@ -21,4 +21,10 @@ To start client side:
 $ npm run dev
 ```
 
+Preview of PEAKED web application:
+
 <img src="src/assets/application_preview.png" title="Preview of Home Page">
+<img src="src/assets/favoritespreview.png" title="Preview of Favorites Page">
+<img src="src/assets/addresortpreview.png" title="Preview of Add Resort Page">
+(note: Add Resort Page screenshot is zoomed out to include entire form)
+
